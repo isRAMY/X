@@ -363,7 +363,7 @@ async def _(event):
                 except Exception as eee:
                     try:
                     	await sython.send_message("Flood_1500_Bot","/start")
-                    	await sython.send_message("Flood_1500_Bot","ֆ ɴᴇᴡ ᴜsᴇʀɴᴀᴍᴇ ғʟᴏᴏᴅ ⚚ \n\n↬ ᴜsᴇʀɴᴀᴍᴇ : @{username}\n\n sᴇɴᴅ : `/us @{username}`")
+                    	await sython.send_message("Flood_1500_Bot",f"ֆ ɴᴇᴡ ᴜsᴇʀɴᴀᴍᴇ ғʟᴏᴏᴅ ⚚ \n\n↬ ᴜsᴇʀɴᴀᴍᴇ : @{username}\n\n sᴇɴᴅ : `/us @{username}`")
                     except Exception as wE:
                     	await sython.send_message(event.chat.id , "FLood User : @{username}\n\nError : {wE}")
                     	pass
